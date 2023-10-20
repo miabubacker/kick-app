@@ -1,11 +1,14 @@
 .headerContainer {
   display: flex;
   padding: 2rem;
-  justify-content: space-between;
+//   justify-content: space-between;
   align-items: center;
   border-radius: 1.5rem;
-  background: #fafafa;
+//   background: #fafafa;
+background:red;
   align-items: center;
+  gap: 22%;
+
   .menubar {
     display: none;
   }
