@@ -7,7 +7,7 @@ export default function Home(props) {
   return (
     <React.Fragment>
       {/* <Header {...props}/> */}
-      Home
+      Home   
       <button
         onClick={() => {
           homeActions.fetchRequestedFeatures();
