@@ -1,0 +1,60 @@
+.newDropContainer{
+     margin-top: 90px;
+     display: flex;
+     justify-content: space-between;
+     .section1{
+        width: 610px;
+color: #232321;
+font-size: 74px;
+font-style: normal;
+font-weight: 600;
+line-height: 95%; /* 70.3px */
+text-transform: uppercase;
+     }
+     .shopNewDrops{
+        height: 48px;
+padding: 8px 32px;
+align-self: flex-end;
+align-items: center;
+gap: 4px;
+border: none;
+border-radius: 8px;
+background: #4A69E2;
+color:  #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.25px;
+text-transform: uppercase;
+     }
+
+}
+@media screen and (min-width: 320px) and (max-width: 1305px) {
+    .newDropContainer{
+         margin-top: 24px;
+        //  gap: 28px;
+        //  justify-content: none;
+         .section1{
+            font-size: 22px;
+font-style: normal;
+font-weight: 600;
+text-transform: lowercase;
+width: 172px;
+         }
+         .shopNewDrops{
+            font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.25px;
+height: 40px;
+padding: 8px 10px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+
+
+         }
+    }
+}
