@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import HeroCutOut from "../HeroCutOut";
 import './Home.scss'
 import NewDrop from "../NewDrops/NewDrop";
+import NewDropShoes from "../NewDropCollection/NewDropShoes";
 
 export default function Home(props) {
   const { loading, homeActions } = props;
@@ -12,10 +13,9 @@ export default function Home(props) {
   
       <div className="mainConatiner">
       <Header {...props}/>
-   
-    
       <HeroCutOut {...props}/>
       <NewDrop {...props}/>
+      <NewDropShoes {...props}/>
 
       
       {/* Home   
