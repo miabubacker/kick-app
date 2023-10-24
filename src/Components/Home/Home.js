@@ -3,13 +3,19 @@ import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import Header from "../Header/Header";
 import HeroCutOut from "../HeroCutOut";
+import './Home.scss'
 
 export default function Home(props) {
   const { loading, homeActions } = props;
   return (
-    <React.Fragment>
+  
+      <div className="mainConatiner">
       <Header {...props}/>
+   
+    
       <HeroCutOut {...props}/>
+
+      
       {/* Home   
       <button
         onClick={() => {
@@ -24,6 +30,6 @@ export default function Home(props) {
             <Route path='/cart' element={<Cart {...props} />}/>
             <Route path='/BuyerForm' element={<Form {...props} />}/>
         </Routes> */}
-    </React.Fragment>
+       </div>
   );
 }

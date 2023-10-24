@@ -1,8 +1,0 @@
-.App{
-    padding: 2rem 3.75rem 1.15rem 3.75rem;
-}
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .App{
-        padding: 2rem 1rem 1.5rem 0.226rem;
-    }
-}
