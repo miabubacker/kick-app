@@ -1,21 +1,23 @@
 .headerContainer {
-  display: flex;
-  padding: 2rem;
-//   justify-content: space-between;
-  align-items: center;
-  border-radius: 1.5rem;
-//   background: #fafafa;
-background:red;
-  align-items: center;
-  gap: 22%;
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+// background: #FAFAFA;
+ background: red;
+margin-top: 32px;
+
+
 
   .menubar {
     display: none;
+   
   }
   .newDrops {
+     width: 301px;
     display: flex;
-    align-items: flex-start;
-    gap: 2.5rem;
+    gap: 2rem;
     flex-shrink: 0;
     color: #232321;
     font-size: 1rem;
@@ -24,6 +26,7 @@ background:red;
     line-height: normal;
   }
   .aboutUs {
+    width: 301px;
     display: flex;
     // width: 18.8125rem;
     justify-content: flex-end;
@@ -66,6 +69,8 @@ background:red;
       height: 1.25rem;
     }
     .aboutUs {
+        width: 0;
+        gap: 9px;
       .seachIcon {
         display: none;
       }

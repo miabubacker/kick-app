@@ -7,9 +7,12 @@ import './Header.scss'
   import menubar from '../Assets/iconsImg/menuBar.svg'
 export default function Header() {
   return (
+    <div>
+
+   
     <div className='headerContainer'>
 <div className='newDrops'>
-    <div>New Drops 🔥</div>
+    <div >New Drops 🔥</div>
     <div>Men <img src={caret_down}/></div>
     <div>Women <img src={caret_down}/></div>
 </div>
@@ -27,6 +30,7 @@ export default function Header() {
     <div className='cart'>0</div>
 </div>
 
+    </div>
     </div>
   )
 }

@@ -1,0 +1,12 @@
+.mainConatiner{
+    max-width: 1320px  !important;
+    margin: 0 auto;
+     overflow: hidden;
+     padding: 0 10px ;
+   background:  #FFF;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    // .mainConatiner{
+    //     padding: 2rem 1rem 1.5rem 0.226rem;
+    // }
+ } 
