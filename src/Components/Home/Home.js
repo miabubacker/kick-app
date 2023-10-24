@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "../Header/Header";
 import HeroCutOut from "../HeroCutOut";
 import './Home.scss'
+import NewDrop from "../NewDrops/NewDrop";
 
 export default function Home(props) {
   const { loading, homeActions } = props;
@@ -14,6 +15,7 @@ export default function Home(props) {
    
     
       <HeroCutOut {...props}/>
+      <NewDrop {...props}/>
 
       
       {/* Home   
