@@ -16,7 +16,7 @@ export default function NewDropShoes() {
    <>
    <section className='galleryContainer'>
 <div className='gallery'>
-{gallery.map((data)=><div className='galleryCardMain'>
+{gallery.map((data,index)=><div className='galleryCardMain' key={index}>
 <div className='gallerycard'>
 <div className='newLeaf'>New</div>
 <div className='imgContainer'><img src={data.img}/></div>
