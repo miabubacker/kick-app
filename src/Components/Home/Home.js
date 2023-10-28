@@ -6,6 +6,7 @@ import HeroCutOut from "../HeroCutOut";
 import './Home.scss'
 import NewDrop from "../NewDrops/NewDrop";
 import NewDropShoes from "../NewDropCollection/NewDropShoes";
+import Categories from "../Categories/Categories";
 
 export default function Home(props) {
   const { loading, homeActions } = props;
@@ -16,6 +17,7 @@ export default function Home(props) {
       <HeroCutOut {...props}/>
       <NewDrop {...props}/>
       <NewDropShoes {...props}/>
+<Categories {...props}/>
 
       
       {/* Home   
