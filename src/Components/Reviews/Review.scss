@@ -1,0 +1,26 @@
+.review_section {
+  margin: 128px 0;
+  .review_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    color: #232321;
+    font-family: Rubik;
+    font-size: 74px;
+    font-weight: 600;
+    line-height: 95%;
+  }
+  button{
+    padding: 8px 32px;
+    background-color: #4A69E2;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    height: 48px;
+    cursor: pointer;
+  }
+}

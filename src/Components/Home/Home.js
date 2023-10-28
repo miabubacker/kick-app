@@ -7,19 +7,21 @@ import './Home.scss'
 import NewDrop from "../NewDrops/NewDrop";
 import NewDropShoes from "../NewDropCollection/NewDropShoes";
 import Categories from "../Categories/Categories";
+import Review from "../Reviews/Review";
 
 export default function Home(props) {
   const { loading, homeActions } = props;
   return (
-  
-      <div className="mainConatiner">
-      <Header {...props}/>
-      <HeroCutOut {...props}/>
-      <NewDrop {...props}/>
-      <NewDropShoes {...props}/>
-<Categories {...props}/>
 
-      
+    <div className="mainConatiner">
+      <Header {...props} />
+      <HeroCutOut {...props} />
+      <NewDrop {...props} />
+      <NewDropShoes {...props} />
+      <Categories {...props} />
+      <Review />
+
+
       {/* Home   
       <button
         onClick={() => {
@@ -34,6 +36,6 @@ export default function Home(props) {
             <Route path='/cart' element={<Cart {...props} />}/>
             <Route path='/BuyerForm' element={<Form {...props} />}/>
         </Routes> */}
-       </div>
+    </div>
   );
 }
