@@ -1,5 +1,10 @@
 .review_section {
   margin: 128px 0;
+  box-sizing: border-box;
+   img{
+     width: 100%;
+     height: 100%;
+   }
   .review_title{
     display: flex;
     justify-content: space-between;
@@ -7,7 +12,6 @@
   }
   h1 {
     color: #232321;
-    font-family: Rubik;
     font-size: 74px;
     font-weight: 600;
     line-height: 95%;
@@ -23,4 +27,119 @@
     height: 48px;
     cursor: pointer;
   }
+  .review_cards{
+     display: flex;
+     gap: 12px;
+     margin-top: 48px;
+  .card_main{
+display: flex;
+flex-direction: column;
+border-radius: 32px 32px 0px 0px;
+background: #FAFAFA;
+// width: 429px;
+.top_main{
+   display: flex;
+   padding: 30px;
+   gap: 8px;
+   .review_header{
+    color:  #232321;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+width: 293px;
+line-height: normal;
+   }
+   .review_comments{
+    margin-top: 8px;
+    color: #232321;
+    font-family: Open ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 293px;
+   }
+   .review_stars{
+     margin-top: 8px;
+     color:  #232321;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+   .reviews_star{
+   font-size: 24px;
+    color: gold;
+   }
+  }
+   .profile{
+     width: 64px;
+     height: 64px;
+   }
+
+}
+ img{
+  border-radius: 0px 0px 32px 32px;
+ }
+  }
+}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1305px) {
+.review_section{
+  margin: 20px 0;
+  box-sizing: border-box;
+  h1{
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  button{
+    font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.25px;
+text-transform: uppercase;
+  }
+  .review_cards{
+     flex-direction: column;
+     margin-top: 20px;
+     .card_main{
+     .top_main{
+       padding: 16px;
+       justify-content: space-between;
+       .review_header{
+        width: fit-content;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+       }
+       .review_comments{
+        width: fit-content;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+       }
+       .profile{
+        width: 48px;
+        height: 48px;
+      }
+      .review_stars{
+        font-size: 14px;
+        .reviews_star{
+          font-size: 14px;
+        }
+      }
+     }
+    }
+  }
+}
+
+
+
 }
