@@ -26,7 +26,7 @@ export default function Categories() {
                 const container = sliderRef.current;
                 
                 container.scrollLeft -= 100;
-                 setLengthIMg(container.scrollLeft -= 100) 
+                 setLengthIMg(container.scrollLeft -= window.innerWidth) 
             }
          }
           else{
@@ -38,8 +38,8 @@ export default function Categories() {
             else{
                 const container = sliderRef.current;
                  console.log(container)
-                container.scrollLeft += 100;
-                //  setLengthIMg(container.scrollLeft += 320) 
+                // container.scrollLeft += container;
+                 setLengthIMg( container.scrollLeft += window.innerWidth) 
             }
           }
          
