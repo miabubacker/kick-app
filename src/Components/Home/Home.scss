@@ -5,8 +5,8 @@
      padding: 0 10px ;
    background:  #FFF;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    // .mainConatiner{
-    //     padding: 0 16px;
-    // }
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .mainConatiner{
+        padding: 0 18px;
+    }
  } 
