@@ -8,6 +8,7 @@ import NewDrop from "../NewDrops/NewDrop";
 import NewDropShoes from "../NewDropCollection/NewDropShoes";
 import Categories from "../Categories/Categories";
 import Review from "../Reviews/Review";
+import Footer from "../Footer/Footer";
 
 export default function Home(props) {
   const { loading, homeActions } = props;
@@ -20,6 +21,7 @@ export default function Home(props) {
       <NewDropShoes {...props} />
       <Categories {...props} />
       <Review />
+      <Footer />
 
 
       {/* Home   
