@@ -126,13 +126,13 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .heroText {
     margin-top: 24px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
     h1 {
       font-size: 122px;
       white-space: nowrap;
       text-align: center;
-      // width: 0;
+      width: 100% !important;
     }
   }
   .HeroImg {
@@ -201,10 +201,11 @@
 @media screen and (min-width: 425px) and (max-width: 767px) {
   .heroText {
     margin-top: 24px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
     h1 {
-      font-size: 4.2rem;
+      width: 100% !important;
+      font-size: 62px;
       white-space: nowrap;
       text-align: center;
       // width: 0;
@@ -276,13 +277,14 @@
 
   .heroText {
     margin-top: 24px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
     h1 {
-      font-size: 58px;
+
+      font-size: 54px;
       white-space: nowrap;
       text-align: center;
-      width: 0;
+      width: 100% !important;
     }
   }
   .HeroImg {
@@ -352,11 +354,12 @@
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .heroText {
     margin-top: 24px;
-    display: flex;
-    justify-content: center;
-     font-size: 16px;
+    // display: flex;
+    // justify-content: center;
+    //  font-size: 16px;
     h1 {
-      font-size: 49px;
+      width: 100% !important;
+      font-size: 46px;
       white-space: nowrap;
       width: 0;
       text-align: center;
