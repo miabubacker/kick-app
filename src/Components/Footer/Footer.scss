@@ -1,0 +1,135 @@
+.footer_section {
+  background-color: #4a69e2;
+  border-radius: 48px;
+  &_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    &_signup {
+      margin-top: 64px;
+      margin-left: 72px;
+    }
+    h1 {
+      color: #fff;
+      font-size: 48px;
+      font-weight: 600;
+      width: 480px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 20px;
+      color: #e7e7e3;
+      font-weight: 600;
+      margin-bottom: 32px;
+    }
+    input {
+      height: 48px;
+      padding: 10px 16px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      margin-right: 3px;
+      background-color: #4a69e2;
+      outline: none;
+      color: #fff;
+      width: 342px;
+    }
+    button {
+      cursor: pointer;
+      padding: 8px 24px;
+      border-radius: 8px;
+      height: 48px;
+      font-size: 14px;
+      font-weight: 500;
+      outline: none;
+      color: #fff;
+      background-color: #232321;
+    }
+  }
+  ::placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  .footer_section_logo_image {
+    position: relative;
+    margin-right: 184px;
+    margin-top: 144px;
+    margin-bottom: 68px;
+    width: 350px;
+  }
+
+  .img_footer_about_logo_plus {
+    position: absolute;
+    top: -24px;
+    right: -15px;
+  }
+
+  .footer_section_about {
+    background-color: #232321;
+    color: white;
+    border-radius: 32px;
+
+    &_content {
+      padding: 0 48px 0 40px;
+    }
+    &_about_us p {
+      max-width: 440px;
+      font-size: 20px;
+    }
+    &_about_us h3 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    &_categories li,
+    a,
+    &_company li,
+    a {
+      margin: 8px 0;
+      list-style: none;
+      color: #fff;
+      text-decoration: none;
+    }
+    &_categories h3,
+    &_company h3,
+    &__follow h3 {
+      margin-bottom: 16px;
+    }
+    &_follow_icon {
+      margin-top: 16px;
+      display: flex;
+      gap: 24px;
+    }
+    &_follow_icon img {
+      cursor: pointer;
+    }
+    &_content {
+      padding-top: 60px;
+      background-color: #232321;
+      border-radius: 48px;
+      padding-bottom: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      flex-wrap: wrap;
+      h3 {
+        color: #ffa52f;
+      }
+    }
+    &_image {
+      margin: 0 30px;
+    }
+    &_image img {
+      width: 100%;
+    }
+  }
+}
+
+// Responsive
+
+@media screen and (max-width:1023px) {
+   .footer_section_about_content{
+    flex-wrap: nowrap;
+   }
+}
