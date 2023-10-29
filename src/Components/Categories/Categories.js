@@ -51,7 +51,7 @@ export default function Categories() {
     <button disabled={lengthimg<=0}  className={lengthimg<=0?'disabled':'view'}onClick={()=>{scrollShoes('left')}}>
         <img  style={{transform:'rotate(-180deg'}}src={buttonLeft} />
         </button>
-    <button  disabled={lengthimg>=2256|| lengthimg===1367} className={ lengthimg>=2256||lengthimg===1367?'disabled':"view"} onClick={()=>{scrollShoes('right')}}><img src={buttonRight}/></button>
+    <button  disabled={lengthimg>=2256|| lengthimg>=1367||lengthimg>=1276 } className={ lengthimg>=2256||lengthimg>=1485|| lengthimg>=1276?'disabled':"view"} onClick={()=>{scrollShoes('right')}}><img src={buttonRight}/></button>
     </div>
 </div>
 <div className='ShoesContainer' ref={sliderRef}>
