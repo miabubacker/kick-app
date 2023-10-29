@@ -66,7 +66,106 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 1305px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .galleryContainer {
+    margin-top: 24px;
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      .galleryCardMain {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .gallerycard {
+          width: 100%;
+          .newLeaf {
+            padding: 4px 8px;
+            left: 8px;
+            top: 8px;
+            border-radius: 12px 0px 13px 0px;
+            font-size: 18px;
+          }
+          .imgContainer {
+            padding: 8px;
+            border-radius: 28px;
+            background: #fafafa;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .content {
+            font-size: 16px;
+          }
+          button {
+            margin-top: 8px;
+            height: 40px;
+            padding: 8px 16px;
+            align-items: center;
+            border-radius: 8px;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.25px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .galleryContainer {
+    margin-top: 24px;
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      .galleryCardMain {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .gallerycard {
+          width: 100%;
+          .newLeaf {
+            padding: 4px 8px;
+            left: 8px;
+            top: 8px;
+            border-radius: 12px 0px 13px 0px;
+            font-size: 16px;
+          }
+          .imgContainer {
+            padding: 8px;
+            border-radius: 28px;
+            background: #fafafa;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .content {
+            font-size: 16px;
+          }
+          button {
+            margin-top: 8px;
+            height: 40px;
+            padding: 8px 16px;
+            align-items: center;
+            border-radius: 8px;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.25px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .galleryContainer {
     margin-top: 24px;
     .gallery {
