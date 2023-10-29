@@ -8,8 +8,8 @@ import menubar from '../Assets/iconsImg/menuBar.svg'
 export default function Header() {
   
   return (
-    <div>
-      <div className='headerContainer'>
+    <>
+      <section className='headerContainer'>
         <div className='newDrops'>
           <div >New Drops 🔥</div>
           <div>Men <img src={caret_down} /></div>
@@ -29,7 +29,7 @@ export default function Header() {
           <div className='cart'>0</div>
         </div>
 
-      </div>
-    </div>
+      </section>
+    </>
   )
 }
