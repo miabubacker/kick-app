@@ -86,7 +86,47 @@ line-height: normal;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 1305px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .review_section{
+    margin: 40px 0;
+    .review_cards{
+      // flex-direction: column;
+      margin-top: 20px;
+      .card_main{
+      .top_main{
+        padding: 16px;
+        justify-content: space-between;
+        .review_header{
+         width: fit-content;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: normal;
+        }
+        .review_comments{
+         width: fit-content;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+        }
+        .profile{
+         width: 48px;
+         height: 48px;
+       }
+       .review_stars{
+         font-size: 14px;
+         .reviews_star{
+           font-size: 14px;
+         }
+       }
+      }
+     }
+   }
+  }
+  
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
 .review_section{
   margin: 20px 0;
   box-sizing: border-box;
