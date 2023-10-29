@@ -14,14 +14,14 @@ export default function Home(props) {
   const { loading, homeActions } = props;
   return (
 
-    <div className="mainConatiner">
-      <Header {...props} />
+    <div>
+      {/* <Header {...props} /> */}
       <HeroCutOut {...props} />
       <NewDrop {...props} />
       <NewDropShoes {...props} />
       <Categories {...props} />
       <Review />
-      <Footer />
+      {/* <Footer /> */}
 
 
       {/* Home   
