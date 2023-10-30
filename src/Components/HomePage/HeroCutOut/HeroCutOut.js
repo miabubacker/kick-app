@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import "./HeroCutOut.scss";
-import heroImg from "../Assets/Imgs/image 14.svg";
-import heroImgs from "../Assets/Imgs/image14s.svg";
-import side2 from "../Assets/Imgs/Rectangle1.svg";
-import side1 from "../Assets/Imgs/Rectangle2.svg";
+import heroImg from "../../Assets/Imgs/image 14.svg";
+import heroImgs from "../../Assets/Imgs/image14s.svg";
+import side2 from "../../Assets/Imgs/Rectangle1.svg";
+import side1 from "../../Assets/Imgs/Rectangle2.svg";
 
-export default function HeroCutOut() {
+export default function HeroCutOut(props) {
   const [bgIMg, setBgIMg] = useState(0);
   const desktopImage = [heroImg, side1];
   const mobileImage = [heroImgs, side1];
   const [bg, setBg] = useState({ backgroundImage: `url(${heroImg})` });
-
+  console.log(props);
   const bgIMgChange = (index) => {
     setBgIMg(index);
   };
