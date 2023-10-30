@@ -125,11 +125,83 @@
     }
   }
 }
+.footer_link {
+  text-align: center;
+}
 
 // Responsive
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footer_section_logo {
+    margin: 8px;
+    padding: 24px 8px 42px;
+  }
+  .img_footer_about_logo {
+    width: 192px;
+  }
+  .footer_section_logo_signup input {
+    width: 204px;
+    padding: 6px 8px;
+  }
+  .footer-input {
+    margin-bottom: 42px;
+  }
+  .footer_section_logo_signup button {
+    width: 86px;
+    padding: 8px 20px;
+  }
+  .footer_section_logo_signup {
+    margin: 0;
+  }
+  .footer_section_logo_signup p {
+    width: 260px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .footer_section_logo_signup h1 {
+    width: 260px;
+    height: 76px;
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .footer_section_logo_image {
+    margin: 0px !important;
+    width: 197px !important;
+  }
+  .img_footer_about_logo_plus {
+    top: -16px !important;
+    width: 22px;
+  }
 
-@media screen and (max-width:1023px) {
-   .footer_section_about_content{
-    flex-wrap: nowrap;
-   }
+  .footer_section_about_content {
+    flex-direction: column;
+  }
+
+  .footer_section_about {
+    &_about_us,
+    &_categories,
+    &_company,
+    &__follow {
+      margin-bottom: 40px;
+    }
+  }
+  .footer_section_about h3 {
+    font-size: 24px;
+  }
+  .footer_section_about p {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 }
