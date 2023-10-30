@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import HomeReducer from "../Components/Home/Home.reducer";
-import HeroReducer from "../Components/HeroCutOut/HeroCutOut.reducer";
+import HomeReducer from "../Components/HomePage/Home/Home.reducer";
+import HeroReducer from "../Components/HomePage/HeroCutOut/HeroCutOut.reducer";
 export const defaultReducers = {
   HomeReducer,
   HeroReducer,

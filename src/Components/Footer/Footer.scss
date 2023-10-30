@@ -133,7 +133,7 @@
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .footer_section_logo {
     margin: 8px;
-    padding: 24px 8px 42px;
+    padding: 32px 8px 42px;
   }
   .img_footer_about_logo {
     width: 192px;
@@ -160,8 +160,9 @@
   .footer_section_logo_signup h1 {
     width: 260px;
     height: 76px;
-    font-size: 24px;
-    line-height: 38px;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
   }
   .footer_section_logo_image {
     margin: 0px !important;
@@ -177,6 +178,9 @@
   }
 
   .footer_section_about {
+    &_content{
+      padding: 32px 18px 48px !important;
+    }
     &_about_us,
     &_categories,
     &_company,
