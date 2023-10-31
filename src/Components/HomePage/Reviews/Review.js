@@ -41,8 +41,8 @@ function Review() {
             <button>SEE ALL</button>
           </div>
           <div className="review_cards">
-            {reviewCard.map((data) => (
-              <div className="card_main">
+            {reviewCard.map((data,index) => (
+              <div className="card_main" key={index}>
                 <div className="top_main">
                   <div>
                     <div className="review_header">{data.header}</div>

@@ -16,7 +16,7 @@ const history = createBrowserHistory();
 
 root.render(
   <Provider store={store}>
-    <App />
+  <App/>
   </Provider>
 );
 

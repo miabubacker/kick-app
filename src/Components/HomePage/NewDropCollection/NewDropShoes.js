@@ -6,49 +6,28 @@ import gallery3 from "../../Assets/Imgs/gallery3.svg";
 import gallery4 from "../../Assets/Imgs/gallery4.svg";
 import { useNavigate } from "react-router-dom";
 
-export default function NewDropShoes() {
+export default function NewDropShoes(props) {
   const navigate = useNavigate();
-  const [gallery, setGallery] = useState([
-    {
-      img: gallery1,
-      content: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
-      price: "$125",
-    },
-    {
-      img: gallery2,
-      content: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
-      price: "$125",
-    },
-    {
-      img: gallery3,
-      content: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
-      price: "$125",
-    },
-    {
-      img: gallery4,
-      content: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
-      price: "$125",
-    },
-  ]);
-
-  const viewProduct = () => {
-    navigate("/Product_Page");
+   const {gallery,mainPageAction}=props
+  const viewProduct = (id) => {
+    navigate(`/Product_Page/${id}`);
+     mainPageAction.viewProduct(gallery.filter((data)=>data.id===id))
   };
   return (
     <>
       <section className="galleryContainer">
         <div className="gallery">
-          {gallery.map((data, index) => (
-            <div className="galleryCardMain" key={index}>
+          {gallery.map((data, ) => (
+            <div className="galleryCardMain" key={data.id}>
               <div className="gallerycard">
                 <div className="newLeaf">New</div>
                 <div className="imgContainer">
-                  <img src={data.img} />
+                  <img src={data.thumbNailImg} />
                 </div>
-                <div className="content">{data.content}</div>
+                <div className="content">{data.title}</div>
                 <button
                   onClick={() => {
-                    viewProduct();
+                    viewProduct(data.id);
                   }}
                 >
                   View Product - <span className="amount">{data.price}</span>

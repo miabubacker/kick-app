@@ -1,0 +1,3 @@
+export const ACTION_TYPES = {
+VIEW_PRODUCT:'VIEW_PRODUCT'
+}
