@@ -9,8 +9,6 @@ import Categories from "../Categories/Categories";
 import Review from "../Reviews/Review";
 
 export default function Home(props) {
-  const { loading, homeActions } = props;
-  console.log(props);
   return (
     <div>
       {/* <Header {...props} /> */}

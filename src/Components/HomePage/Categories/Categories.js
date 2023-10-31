@@ -5,13 +5,8 @@ import buttonLeft from "../../Assets/iconsImg/leftbtn.svg";
 import shoe1 from "../../Assets/Imgs/categoriesShow1.svg";
 import shoe2 from "../../Assets/Imgs/categoriesShow2.svg";
 import rightArrow from "../../Assets/iconsImg/arrowtright_up.svg";
-export default function Categories() {
-  const shoes = [
-    { img: shoe1, about: "Lifestyle Shoes" },
-    { img: shoe2, about: "Basketball Shoes" },
-    { img: shoe1, about: "Lifestyles Shoes" },
-    { img: shoe2, about: "Basketballs Shoes" },
-  ];
+export default function Categories(props) {
+   const {shoesCategories}=props
   const sliderRef = useRef(null);
   const [lengthimg, setLengthIMg] = useState(0);
   const scrollAmount = 650;
@@ -71,7 +66,7 @@ export default function Categories() {
           </div>
         </div>
         <div className="ShoesContainer" ref={sliderRef}>
-          {shoes.map((data, index) => (
+          {shoesCategories.map((data, index) => (
             <div className="showsMain" key={index}>
               <div className="shoeimgContainer">
                 <img src={data.img} />

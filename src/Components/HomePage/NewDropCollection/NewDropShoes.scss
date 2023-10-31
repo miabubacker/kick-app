@@ -2,14 +2,14 @@
   margin-top: 32px;
   .gallery {
     display: grid;
-    grid-template-columns: 318px 318px 318px 318px;
+    grid-template-columns: 316px 316px 316px 316px;
     gap: 12px;
     .galleryCardMain {
       display: flex;
       flex-direction: column;
       position: relative;
       .gallerycard {
-        width: 318px;
+        width: 316px;
         // height: 350px;
         .newLeaf {
           position: absolute;

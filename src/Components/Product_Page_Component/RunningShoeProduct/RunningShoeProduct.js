@@ -1,7 +1,7 @@
 import React from "react";
 import "./RunningShoeProduct.scss";
 
-function RunningShoeProduct() {
+function RunningShoeProduct(props) {
   return (
     <>
       <section>
