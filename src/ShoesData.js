@@ -21,6 +21,8 @@ export const shoesData = [
     thumbNailImg: shoe1,
     title: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
     price: 125,
+    comeingDetails:'New Release',
+    availableSize:[38,39,40],
     aboutProduct: {
       aboutTitle: "Shadow Navy / Army Green",
       aboutOffers:
@@ -31,11 +33,7 @@ export const shoesData = [
       ],
     },
     // shoeImg:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],
-     typesOfcolor:[
-        {key0:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4]},
-     {key1:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4]},
-    ],
-     
+     typesOfcolor:[[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],[categoriesshoe1,categoriesshoe1,aboutshoe3,aboutshoe4]],
      color:["#232321","#707E6E"],
      favourties:false,
      gender:'Male',
@@ -46,6 +44,8 @@ export const shoesData = [
     thumbNailImg: shoe2,
     title: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
     price: 125,
+    comeingDetails:'New Release',
+    availableSize:[38,39,40],
     aboutProduct: {
       aboutTitle: "Shadow Navy / Army Green",
       aboutOffers:
@@ -55,10 +55,7 @@ export const shoesData = [
         "Join adiClub to get unlimited free standard shipping, returns, & exchanges.",
       ],
     },
-     typesOfcolor:[
-        {key0:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4]},
-     {key1:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4]},
-    ],
+    typesOfcolor:[[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],[categoriesshoe1,categoriesshoe1,aboutshoe3,aboutshoe4]],
      
      color:["#232321","#707E6E"],
      favourties:false,
@@ -70,6 +67,8 @@ export const shoesData = [
     thumbNailImg: shoe3,
     title: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
     price: 125,
+    comeingDetails:'New Release',
+    availableSize:[40],
     aboutProduct: {
       aboutTitle: "Shadow Navy / Army Green",
       aboutOffers:
@@ -79,10 +78,7 @@ export const shoesData = [
         "Join adiClub to get unlimited free standard shipping, returns, & exchanges.",
       ],
     },
-     typesOfcolor:[
-        {key0:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4]},
-     {key1:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4]},
-    ],
+    typesOfcolor:[[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],[categoriesshoe1,categoriesshoe1,aboutshoe3,aboutshoe4]],
      
      color:["#232321","#707E6E"],
      favourties:false,
@@ -94,6 +90,8 @@ export const shoesData = [
     thumbNailImg: shoe4,
     title: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
     price: 125,
+    comeingDetails:'New Release',
+    availableSize:[40,41,42],
     aboutProduct: {
       aboutTitle: "Shadow Navy / Army Green",
       aboutOffers:
@@ -103,16 +101,110 @@ export const shoesData = [
         "Join adiClub to get unlimited free standard shipping, returns, & exchanges.",
       ],
     },
-     typesOfcolor:[
-        {key0:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4]},
-     {key1:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4]},
-    ],
+    typesOfcolor:[[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],[categoriesshoe1,categoriesshoe1,aboutshoe3,aboutshoe4]],
      
      color:["#232321","#707E6E"],
      favourties:false,
      gender:'Male',
      type:"Casual_shoes"
   },
+  {
+    id: 5,
+    thumbNailImg: shoe1,
+    title: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
+    price: 125,
+    comeingDetails:'New Release',
+    availableSize:[38,39,40,41,42,44],
+    aboutProduct: {
+      aboutTitle: "Shadow Navy / Army Green",
+      aboutOffers:
+        "This product is excluded from all promotional discounts and offers.",
+      aboutusPoints: [
+        "Pay over time in interest-free installments with Affirm, Klarna or Afterpay.",
+        "Join adiClub to get unlimited free standard shipping, returns, & exchanges.",
+      ],
+    },
+    // shoeImg:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],
+    typesOfcolor:[[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],[categoriesshoe1,categoriesshoe1,aboutshoe3,aboutshoe4]],
+     
+     color:["#232321","#707E6E"],
+     favourties:false,
+     gender:'Male',
+     type:"sports_shoes"
+  },
+  {
+    id: 6,
+    thumbNailImg: shoe1,
+    title: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
+    price: 125,
+    comeingDetails:'New Release',
+    availableSize:[38,39,40,44],
+    aboutProduct: {
+      aboutTitle: "Shadow Navy / Army Green",
+      aboutOffers:
+        "This product is excluded from all promotional discounts and offers.",
+      aboutusPoints: [
+        "Pay over time in interest-free installments with Affirm, Klarna or Afterpay.",
+        "Join adiClub to get unlimited free standard shipping, returns, & exchanges.",
+      ],
+    },
+    // shoeImg:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],
+    typesOfcolor:[[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],[categoriesshoe1,categoriesshoe1,aboutshoe3,aboutshoe4]],
+     
+     color:["#232321","#707E6E"],
+     favourties:false,
+     gender:'Male',
+     type:"sports_shoes"
+  },
+  {
+    id: 7,
+    thumbNailImg: shoe1,
+    title: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
+    price: 125,
+    comeingDetails:'New Release',
+    availableSize:[38],
+    aboutProduct: {
+      aboutTitle: "Shadow Navy / Army Green",
+      aboutOffers:
+        "This product is excluded from all promotional discounts and offers.",
+      aboutusPoints: [
+        "Pay over time in interest-free installments with Affirm, Klarna or Afterpay.",
+        "Join adiClub to get unlimited free standard shipping, returns, & exchanges.",
+      ],
+    },
+    // shoeImg:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],
+    typesOfcolor:[[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],[categoriesshoe1,categoriesshoe1,aboutshoe3,aboutshoe4]],
+     
+     color:["#232321","#707E6E"],
+     favourties:false,
+     gender:'Male',
+     type:"sports_shoes"
+  },
+  {
+    id: 8,
+    thumbNailImg: shoe1,
+    title: "ADIDAS 4DFWD X PARLEY RUNNING SHOES",
+    price: 125,
+    comeingDetails:'New Release',
+    availableSize:[40],
+    aboutProduct: {
+      aboutTitle: "Shadow Navy / Army Green",
+      aboutOffers:
+        "This product is excluded from all promotional discounts and offers.",
+      aboutusPoints: [
+        "Pay over time in interest-free installments with Affirm, Klarna or Afterpay.",
+        "Join adiClub to get unlimited free standard shipping, returns, & exchanges.",
+      ],
+    },
+    // shoeImg:[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],
+    typesOfcolor:[[aboutshoe1,aboutshoe2,aboutshoe3,aboutshoe4],[categoriesshoe1,categoriesshoe1,aboutshoe3,aboutshoe4]],
+     
+     color:["#232321","#707E6E"],
+     favourties:false,
+     gender:'Male',
+     type:"sports_shoes"
+  },
+
 ];
  export const shoesTypes=['Casual shoes','Runners','Hiking']
 

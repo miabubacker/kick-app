@@ -3,7 +3,7 @@ import ProductPageComponent from '../../Components/Product_Page_Component/Produc
 
 export default function Product_page(props) {
   return (
-    <div><ProductPageComponent {...props}/></div>
+    <React.Fragment><ProductPageComponent {...props}/></React.Fragment>
   )
 }
 

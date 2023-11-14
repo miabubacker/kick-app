@@ -1,13 +1,133 @@
-.RunningShoeContainer {
-  margin-top: 32px;
-  display: flex;
-  .RunningShoeContentMain {
-    width: 890px;
+
+.gridImg_details_Container{
+display: flex;
+// justify-content: space-between;
+gap: 16px;
+.img_grid_container{
+  display: grid;
+  grid-template-columns: 429px 429px;
+  gap: 16px;
+  .gridImg{
+//     width: 429px;
+// height: 510px;
+
+  }
+}
+.shoe_details{
+  .comming_details{
+    color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 12px 16px;
+border-radius: 12px;
+background: #4A69E2;
+width: 106px;
+height: 38px;
+  }
+  .shoeTitle{
+    margin: 16px 0;
+    color:  #232321;
+font-size: 31px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+  }
+  .price{
+    color:  #4A69E2;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+  }
+  .colors_container{
+     margin: 32px 0;
+     .colortitle{
+      color:  #232321;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 8px;
+     }
+     .colorMain{
+      display: flex;
+      gap: 16px;
+      .color_border{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 2px solid;
+      }
+      .color{
+        width: 32px;
+height: 32px;
+border-radius: 50%;
+padding: 5px;
+      }
+   }
+  }
+  .size_and_charts_container{
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    // border: 2px solid black;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    .size{
+      color:  #232321;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .sizeChart{
+      color:#232321;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.25px;
+text-decoration-line: underline;
+text-transform: uppercase;
+    }
+
+
   }
-  .RunningShoeContent {
+  .sizelabel{
+    display: flex;
+    gap: 4px;
+flex-wrap: wrap;
+
+     .buttonSize{
+      height: 48px;
+      padding: 8px 16px;
+      color:  #232321;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.25px;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+
+     }
+     .avilable{
+      color:#8F8C91;
+      border-radius: 8px;
+background: #D2D1D3;
+    }
+    .dark{
+      color:#FFF;
+      background: #232321;
+
+    }
+    .notavailable{
+      // background: yellow;
+    }
   }
+}
 }
