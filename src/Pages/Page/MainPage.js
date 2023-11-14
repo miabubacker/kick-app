@@ -8,14 +8,13 @@ import Footer from "../../Components/Footer/Footer";
 import Landingpage from "../LandingPage/Landingpage";
 
 export default function Main(props) {
-   console.log(props,'s')
   return (
     <div className="mainConatiner">
 
         <Header />
         <Routes>
           <Route path="/" element={<Landingpage {...props} />} />
-          <Route path="/Product_Page/:id" element={<Product_page />} />
+          <Route path="/Product_Page/:id" element={<Product_page {...props}/>} />
         </Routes>
         <Footer />
     </div>
