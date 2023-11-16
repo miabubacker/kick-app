@@ -1,10 +1,9 @@
 import React, { useRef, useState } from "react";
 import "./Categories.scss";
-import buttonRight from "../../Assets/iconsImg/chevron_forward.svg";
-import buttonLeft from "../../Assets/iconsImg/leftbtn.svg";
-import shoe1 from "../../Assets/Imgs/categoriesShow1.svg";
-import shoe2 from "../../Assets/Imgs/categoriesShow2.svg";
-import rightArrow from "../../Assets/iconsImg/arrowtright_up.svg";
+import ArrowRightSLineIcon from "remixicon-react/ArrowRightSLineIcon"
+import ArrowLeftSLineIcon from "remixicon-react/ArrowLeftSLineIcon"
+import ArrowRightUpLineIcon from "remixicon-react/ArrowRightUpLineIcon"
+
 export default function Categories(props) {
    const {shoesCategories}=props
   const sliderRef = useRef(null);
@@ -46,7 +45,7 @@ export default function Categories(props) {
                 scrollShoes("left");
               }}
             >
-              <img style={{ transform: "rotate(-180deg" }} src={buttonLeft} />
+              <ArrowLeftSLineIcon />
             </button>
             <button
               disabled={
@@ -61,7 +60,7 @@ export default function Categories(props) {
                 scrollShoes("right");
               }}
             >
-              <img src={buttonRight} />
+             <ArrowRightSLineIcon/>
             </button>
           </div>
         </div>
@@ -74,7 +73,7 @@ export default function Categories(props) {
               <div className="aboutAndIcon">
                 <div className="aboutshoes">{data.about}</div>
                 <div className="ArrowIcon">
-                  <img src={rightArrow} />
+                  <ArrowRightUpLineIcon color="white"/>
                 </div>
               </div>
             </div>
