@@ -2,11 +2,10 @@ import "./Footer.scss";
 import logo from "../../Components/Assets/Imgs/FooterLogo.svg";
 import badge from "../../Components/Assets/Imgs/Add_circle.svg";
 import botlogo from "../../Components/Assets/Imgs/bot-Logo.svg";
-import fblogo from "../../Components/Assets/Imgs/ic_baseline-facebook.svg";
-import insta from "../../Components/Assets/Imgs/mdi_instagram.svg";
-import twitter from "../../Components/Assets/Imgs/mdi_twitter.svg";
+import FacebookCircleFillIcon from "remixicon-react/FacebookCircleFillIcon"
+import InstagramFillIcon from "remixicon-react/InstagramFillIcon"
+import TwitterFillIcon from "remixicon-react/TwitterFillIcon"
 import tiktok from "../../Components/Assets/Imgs/ic_baseline-tiktok.svg";
-
 import React from "react";
 
 function Footer() {
@@ -86,9 +85,9 @@ function Footer() {
                 <div className="footer_section_about_follow">
                   <h3>Follow Us</h3>
                   <div className="footer_section_about_follow_icon">
-                    <img src={fblogo} alt="" />
-                    <img src={insta} alt="" />
-                    <img src={twitter} alt="" />
+                    <FacebookCircleFillIcon/>
+                    <InstagramFillIcon />
+                    <TwitterFillIcon />
                     <img src={tiktok} alt="" />
                   </div>
                 </div>

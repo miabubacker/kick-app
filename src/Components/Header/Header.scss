@@ -24,6 +24,10 @@ margin-top: 32px;
     font-weight: 600;
     line-height: normal;
     align-items: center;
+    .title{
+       display: flex;
+       align-items: center;
+    }
   }
   .aboutUs {
     width: 301px;
